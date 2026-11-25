@@ -10,3 +10,9 @@ venv/
 __pycache__/
 *.pyc
 "@ | Add-Content .gitignore
+@"
+
+# Node dependencies
+node_modules/
+frontend/node_modules/
+"@ | Add-Content .gitignore
