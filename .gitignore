@@ -1,0 +1,12 @@
+@"
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+venv/
+.venv/
+__pycache__/
+*.pyc
+"@ | Add-Content .gitignore
